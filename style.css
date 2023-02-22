@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --background-preto: #000000;
+    --azul-botao: #167BF7;
+    --font-principal: 'inter';
+}
+
+body{
+    background-color: var(--background-preto);
+    height: 100vh;
+    font-size: 16px;
+    color: var(--branco-principal);
+    font-family: var(--font-principal);
+}
+
+.principal {
+    background-image: url("Background.png");
+    height: 100vh;
+}
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container-principal-conteudo {
+    width: 80%;
+    text-align: center;
+    margin-top: 70px;
+    gap: 20px;
+}
+
+h1{
+    color: var(--branco-principal);
+    font-size: 28px;
+    font-weight: 700;    
+    margin-bottom: 30px;
+}
+
+img{
+    margin-bottom: 30px;
+
+}
+
+.container-principal-div {
+    width: 512px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin-left: 3%;
+}
+
+.container-principal-botao {
+    text-decoration: none;
+    color: var(--branco-principal);
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    background-color: var(--azul-botao);
+    text-align: center;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.container-secundario-botao {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+    margin: 16px 0px 5px 0;
+}
+
+.container-principal-paragrafo {
+    text-align: center;
+    font-size: 12px;
+    color: var(--cinza-secundario);
+}
+
+
+
+
+.secundario {
+    align-items: center;
+    margin: 10% 70px;
+}
+
+.img_secundaria {
+    width: 80%;
+}
+
+.h2_secundario {
+    font-family: var(--font-principal);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.paragrafo_secundario {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cinza-secundario);
+    margin: 0 20px 20px 0;
+}
+
+
+
+
+.container_dispositivos_titulo {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.container_dispositivos_listas {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 10%;
+}
+
+h3 {
+    text-align: center;
+    font-size: 24px;
+}
+
+
+
+footer{
+    text-align: center;
+}
+
+.footer_listas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 14px;
+    color: var(--branco-principal);
+    margin: 0 20px;
+}
+
+.footer_texto{
+    margin-bottom: 20px;
+    color: var(--cinza-secundario);
+}
